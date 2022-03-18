@@ -3,7 +3,7 @@ public class EntryPoint{
 	public static void main(String[] args){
 	Scanner scan = new Scanner(System.in);
 	int x;
-	String a, y="";
+	String a;
 	do{
 	System.out.println("Which service would you like to use?" + "\n" +
 				"[1]: Basic week visualizer" + "\n" +
@@ -37,11 +37,10 @@ public class EntryPoint{
 		System.out.println("Please make sure you enter a number between 1 and 4");
 	}
 		System.out.println("Would you like to perform another operation? (y/n) ");
-		 a = scan.nextLine();	
-		 scan.nextLine();
-		y += a;
-			
-	}while( y == "y");
+		scan.nextLine(); 
+		a = scan.nextLine();	
+		 
+	}while(a.equalsIgnoreCase("y"));
 	
 
 	}
