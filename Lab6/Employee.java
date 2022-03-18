@@ -23,6 +23,6 @@ public class Employee {
     }
 
     public String toString() {
-      return "Employee information: " + firstName + " " + lastName + " " + age + " " + salary;
+      return "Employee information: " + firstName + " " + lastName + ", " + age + ", " + salary;
     }
 }

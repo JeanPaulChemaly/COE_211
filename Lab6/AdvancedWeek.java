@@ -12,7 +12,8 @@ public class AdvancedWeek {
 
     // printing out the days
     public void printDays() {
-        System.out.println( index + ": " + day_1 + ",\n" +
+        System.out.println( "The advanced days of the week are: " + "\n" +
+index + ": " + day_1 + ",\n" +
 (index + 1) + ": " + day_2 + ",\n" +
 (index + 2) + ": " + day_3 + ",\n" +
 (index + 3) + ": " + day_4 + ",\n" +
